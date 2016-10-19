@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCD4FF591DB758D500DEA07F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4FF581DB758D500DEA07F /* AppDelegate.swift */; };
+		DCD4FF5B1DB758D500DEA07F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD4FF5A1DB758D500DEA07F /* art.scnassets */; };
+		DCD4FF5D1DB758D500DEA07F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4FF5C1DB758D500DEA07F /* GameViewController.swift */; };
+		DCD4FF601DB758D500DEA07F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD4FF5E1DB758D500DEA07F /* Main.storyboard */; };
+		DCD4FF621DB758D500DEA07F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD4FF611DB758D500DEA07F /* Assets.xcassets */; };
+		DCD4FF651DB758D500DEA07F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD4FF631DB758D500DEA07F /* LaunchScreen.storyboard */; };
+		DCD4FF701DB758D500DEA07F /* ZigZagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4FF6F1DB758D500DEA07F /* ZigZagTests.swift */; };
+		DCD4FF7B1DB758D500DEA07F /* ZigZagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4FF7A1DB758D500DEA07F /* ZigZagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD4FF6C1DB758D500DEA07F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD4FF4D1DB758D500DEA07F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD4FF541DB758D500DEA07F;
+			remoteInfo = ZigZag;
+		};
+		DCD4FF771DB758D500DEA07F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD4FF4D1DB758D500DEA07F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD4FF541DB758D500DEA07F;
+			remoteInfo = ZigZag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCD4FF551DB758D500DEA07F /* ZigZag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZigZag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD4FF581DB758D500DEA07F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCD4FF5A1DB758D500DEA07F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DCD4FF5C1DB758D500DEA07F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DCD4FF5F1DB758D500DEA07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCD4FF611DB758D500DEA07F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD4FF641DB758D500DEA07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCD4FF661DB758D500DEA07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD4FF6B1DB758D500DEA07F /* ZigZagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZigZagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD4FF6F1DB758D500DEA07F /* ZigZagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTests.swift; sourceTree = "<group>"; };
+		DCD4FF711DB758D500DEA07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD4FF761DB758D500DEA07F /* ZigZagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZigZagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD4FF7A1DB758D500DEA07F /* ZigZagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagUITests.swift; sourceTree = "<group>"; };
+		DCD4FF7C1DB758D500DEA07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD4FF521DB758D500DEA07F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4FF681DB758D500DEA07F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4FF731DB758D500DEA07F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD4FF4C1DB758D500DEA07F = {
+			isa = PBXGroup;
+			children = (
+				DCD4FF571DB758D500DEA07F /* ZigZag */,
+				DCD4FF6E1DB758D500DEA07F /* ZigZagTests */,
+				DCD4FF791DB758D500DEA07F /* ZigZagUITests */,
+				DCD4FF561DB758D500DEA07F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD4FF561DB758D500DEA07F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4FF551DB758D500DEA07F /* ZigZag.app */,
+				DCD4FF6B1DB758D500DEA07F /* ZigZagTests.xctest */,
+				DCD4FF761DB758D500DEA07F /* ZigZagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD4FF571DB758D500DEA07F /* ZigZag */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4FF581DB758D500DEA07F /* AppDelegate.swift */,
+				DCD4FF5A1DB758D500DEA07F /* art.scnassets */,
+				DCD4FF5C1DB758D500DEA07F /* GameViewController.swift */,
+				DCD4FF5E1DB758D500DEA07F /* Main.storyboard */,
+				DCD4FF611DB758D500DEA07F /* Assets.xcassets */,
+				DCD4FF631DB758D500DEA07F /* LaunchScreen.storyboard */,
+				DCD4FF661DB758D500DEA07F /* Info.plist */,
+			);
+			path = ZigZag;
+			sourceTree = "<group>";
+		};
+		DCD4FF6E1DB758D500DEA07F /* ZigZagTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4FF6F1DB758D500DEA07F /* ZigZagTests.swift */,
+				DCD4FF711DB758D500DEA07F /* Info.plist */,
+			);
+			path = ZigZagTests;
+			sourceTree = "<group>";
+		};
+		DCD4FF791DB758D500DEA07F /* ZigZagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4FF7A1DB758D500DEA07F /* ZigZagUITests.swift */,
+				DCD4FF7C1DB758D500DEA07F /* Info.plist */,
+			);
+			path = ZigZagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD4FF541DB758D500DEA07F /* ZigZag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD4FF7F1DB758D500DEA07F /* Build configuration list for PBXNativeTarget "ZigZag" */;
+			buildPhases = (
+				DCD4FF511DB758D500DEA07F /* Sources */,
+				DCD4FF521DB758D500DEA07F /* Frameworks */,
+				DCD4FF531DB758D500DEA07F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZigZag;
+			productName = ZigZag;
+			productReference = DCD4FF551DB758D500DEA07F /* ZigZag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCD4FF6A1DB758D500DEA07F /* ZigZagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD4FF821DB758D500DEA07F /* Build configuration list for PBXNativeTarget "ZigZagTests" */;
+			buildPhases = (
+				DCD4FF671DB758D500DEA07F /* Sources */,
+				DCD4FF681DB758D500DEA07F /* Frameworks */,
+				DCD4FF691DB758D500DEA07F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD4FF6D1DB758D500DEA07F /* PBXTargetDependency */,
+			);
+			name = ZigZagTests;
+			productName = ZigZagTests;
+			productReference = DCD4FF6B1DB758D500DEA07F /* ZigZagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCD4FF751DB758D500DEA07F /* ZigZagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD4FF851DB758D500DEA07F /* Build configuration list for PBXNativeTarget "ZigZagUITests" */;
+			buildPhases = (
+				DCD4FF721DB758D500DEA07F /* Sources */,
+				DCD4FF731DB758D500DEA07F /* Frameworks */,
+				DCD4FF741DB758D500DEA07F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD4FF781DB758D500DEA07F /* PBXTargetDependency */,
+			);
+			name = ZigZagUITests;
+			productName = ZigZagUITests;
+			productReference = DCD4FF761DB758D500DEA07F /* ZigZagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD4FF4D1DB758D500DEA07F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Stephen;
+				TargetAttributes = {
+					DCD4FF541DB758D500DEA07F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZTKQL2H46D;
+						ProvisioningStyle = Automatic;
+					};
+					DCD4FF6A1DB758D500DEA07F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZTKQL2H46D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCD4FF541DB758D500DEA07F;
+					};
+					DCD4FF751DB758D500DEA07F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZTKQL2H46D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCD4FF541DB758D500DEA07F;
+					};
+				};
+			};
+			buildConfigurationList = DCD4FF501DB758D500DEA07F /* Build configuration list for PBXProject "ZigZag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD4FF4C1DB758D500DEA07F;
+			productRefGroup = DCD4FF561DB758D500DEA07F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD4FF541DB758D500DEA07F /* ZigZag */,
+				DCD4FF6A1DB758D500DEA07F /* ZigZagTests */,
+				DCD4FF751DB758D500DEA07F /* ZigZagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD4FF531DB758D500DEA07F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4FF5B1DB758D500DEA07F /* art.scnassets in Resources */,
+				DCD4FF651DB758D500DEA07F /* LaunchScreen.storyboard in Resources */,
+				DCD4FF621DB758D500DEA07F /* Assets.xcassets in Resources */,
+				DCD4FF601DB758D500DEA07F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4FF691DB758D500DEA07F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4FF741DB758D500DEA07F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD4FF511DB758D500DEA07F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4FF5D1DB758D500DEA07F /* GameViewController.swift in Sources */,
+				DCD4FF591DB758D500DEA07F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4FF671DB758D500DEA07F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4FF701DB758D500DEA07F /* ZigZagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4FF721DB758D500DEA07F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4FF7B1DB758D500DEA07F /* ZigZagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD4FF6D1DB758D500DEA07F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD4FF541DB758D500DEA07F /* ZigZag */;
+			targetProxy = DCD4FF6C1DB758D500DEA07F /* PBXContainerItemProxy */;
+		};
+		DCD4FF781DB758D500DEA07F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD4FF541DB758D500DEA07F /* ZigZag */;
+			targetProxy = DCD4FF771DB758D500DEA07F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCD4FF5E1DB758D500DEA07F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD4FF5F1DB758D500DEA07F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD4FF631DB758D500DEA07F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD4FF641DB758D500DEA07F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD4FF7D1DB758D500DEA07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD4FF7E1DB758D500DEA07F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD4FF801DB758D500DEA07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZTKQL2H46D;
+				INFOPLIST_FILE = ZigZag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stephen.ZigZag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCD4FF811DB758D500DEA07F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZTKQL2H46D;
+				INFOPLIST_FILE = ZigZag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stephen.ZigZag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DCD4FF831DB758D500DEA07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZTKQL2H46D;
+				INFOPLIST_FILE = ZigZagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stephen.ZigZagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZigZag.app/ZigZag";
+			};
+			name = Debug;
+		};
+		DCD4FF841DB758D500DEA07F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZTKQL2H46D;
+				INFOPLIST_FILE = ZigZagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stephen.ZigZagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZigZag.app/ZigZag";
+			};
+			name = Release;
+		};
+		DCD4FF861DB758D500DEA07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZTKQL2H46D;
+				INFOPLIST_FILE = ZigZagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stephen.ZigZagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZigZag;
+			};
+			name = Debug;
+		};
+		DCD4FF871DB758D500DEA07F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZTKQL2H46D;
+				INFOPLIST_FILE = ZigZagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stephen.ZigZagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZigZag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD4FF501DB758D500DEA07F /* Build configuration list for PBXProject "ZigZag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD4FF7D1DB758D500DEA07F /* Debug */,
+				DCD4FF7E1DB758D500DEA07F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD4FF7F1DB758D500DEA07F /* Build configuration list for PBXNativeTarget "ZigZag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD4FF801DB758D500DEA07F /* Debug */,
+				DCD4FF811DB758D500DEA07F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCD4FF821DB758D500DEA07F /* Build configuration list for PBXNativeTarget "ZigZagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD4FF831DB758D500DEA07F /* Debug */,
+				DCD4FF841DB758D500DEA07F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCD4FF851DB758D500DEA07F /* Build configuration list for PBXNativeTarget "ZigZagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD4FF861DB758D500DEA07F /* Debug */,
+				DCD4FF871DB758D500DEA07F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD4FF4D1DB758D500DEA07F /* Project object */;
+}
